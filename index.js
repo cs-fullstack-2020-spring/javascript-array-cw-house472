@@ -51,9 +51,15 @@ let userInput4=prompt("Enter another name")
  
 let userInformation=[userInput1,userInput2,userInput3,userInput4]
 
-if(userInformation == "Kenn") {
+if(userInformation == Kenn){
     console.log(userInformation)
 }
+
+
+
+
+
+
 // ```javascript
 // Example 1
 // Enter the first name: Kevin
