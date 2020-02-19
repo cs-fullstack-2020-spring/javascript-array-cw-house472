@@ -5,6 +5,7 @@
 // // - Console.log ONLY Pete’s name from the list
 // console.log(names[3])
 // // - Change Pete’s name to ‘Ringo’
+// // !! : this only works bc Pete is on the end
 // names.splice([3])
 // console.log(names)
 // names.push('Ringo')
@@ -15,13 +16,7 @@
 // // - Console.log the list
 // console.log(names)
 
-
-
-
-
-
-
-// ### Exercise 2
+// // ### Exercise 2
 // // - Write a program that asks the user to enter 4 ages. Save each of the ages into an array.
 // let userInput1=prompt("Enter your age")
 // let userInput2=prompt("Enter another age")
@@ -43,6 +38,7 @@
 
 // ### Exercise 3
 // Write a program that asks the user to enter any four names into an array. If they enter the name Kenn, ignore it and don't enter it in the array. Console.log the resulting array.
+// !! : you should have an array somewhere in here
 
 let userInput1=prompt("Enter a name")
 let userInput2=prompt("Enter another name")
@@ -50,15 +46,10 @@ let userInput3=prompt("Enter another name")
 let userInput4=prompt("Enter another name")
  
 let userInformation=[userInput1,userInput2,userInput3,userInput4]
-
+// !! : you should be comparing userInformation to the string "Kenn"
 if(userInformation == Kenn){
     console.log(userInformation)
 }
-
-
-
-
-
 
 // ```javascript
 // Example 1
